@@ -16,18 +16,18 @@ void main() async {
       providers: [
         Provider<StorageService>.value(value: storageService),
       ],
-      child: const FlappyBirdApp(),
+      child: const ScrappyBirdApp(),
     ),
   );
 }
 
-class FlappyBirdApp extends StatelessWidget {
-  const FlappyBirdApp({super.key});
+class ScrappyBirdApp extends StatelessWidget {
+  const ScrappyBirdApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flappy Bird Flutter',
+      title: 'Scrappy Bird',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),

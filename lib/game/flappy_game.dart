@@ -8,7 +8,7 @@ import 'background.dart';
 import 'score_text.dart';
 import 'particle_system.dart';
 
-class FlappyGame extends FlameGame with TapDetector, HasCollisionDetection {
+class FlappyGame extends FlameGame with TapCallbacks, HasCollisionDetection {
   final Difficulty difficulty;
   late Bird bird;
   late ScoreText scoreText;
@@ -129,7 +129,7 @@ class FlappyGame extends FlameGame with TapDetector, HasCollisionDetection {
   }
   
   @override
-  void onTap() {
+  void onTapUp(TapUpEvent event) {
     if (!isGameOver) {
       bird.jump();
       audioService.playJump();
