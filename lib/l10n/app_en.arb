@@ -1,6 +1,6 @@
 {
   "@@locale": "en",
-  "appTitle": "Flappy Bird",
+  "appTitle": "Scrappy Bird",
   "@appTitle": {
     "description": "The title of the application"
   },
@@ -70,23 +70,23 @@
   "@playerIdRequired": {
     "description": "Player ID required message"
   },
-  "aboutVersion": "Version 1.0.0",
+  "aboutVersion": "Version 0.1.0",
   "@aboutVersion": {
     "description": "App version"
   },
-  "aboutDescription": "A Flutter-based Flappy Bird game demonstration showcasing game development with the Flame engine.",
+  "aboutDescription": "A Scrappy Bird game clone built with Flutter and the Flame engine.",
   "@aboutDescription": {
     "description": "About app description"
   },
-  "aboutPurpose": "Created for learning and demonstration purposes of Flutter game development.",
+  "aboutPurpose": "A Flappy Bird-style game built with Flutter and Flame.",
   "@aboutPurpose": {
     "description": "App purpose description"
   },
-  "aboutAuthor": "Author: Evil0ctal",
+  "aboutAuthor": "Author: Brendan Greenlee",
   "@aboutAuthor": {
     "description": "Author information"
   },
-  "aboutDate": "Created: May 27, 2025",
+  "aboutDate": "Created: June 30, 2026",
   "@aboutDate": {
     "description": "Creation date"
   },
@@ -142,11 +142,11 @@
   "@aboutFlutterPowered": {
     "description": "Flutter powered message"
   },
-  "aboutGameDescription": "Experience the classic Flappy Bird gameplay reimagined with modern Flutter technology. Features smooth animations, particle effects, multiple difficulty levels, and global high score tracking.",
+  "aboutGameDescription": "A Flappy Bird-style game built with Flutter and Flame. Features smooth animations, particle effects, multiple difficulty levels, and high score tracking.",
   "@aboutGameDescription": {
     "description": "Game description"
   },
-  "developerName": "Evil0ctal",
+  "developerName": "Brendan Greenlee",
   "@developerName": {
     "description": "Developer name"
   },

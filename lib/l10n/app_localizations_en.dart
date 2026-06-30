@@ -9,7 +9,7 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get appTitle => 'Flappy Bird';
+  String get appTitle => 'Scrappy Bird';
 
   @override
   String get playerId => 'Player ID';
@@ -62,17 +62,17 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get aboutDescription =>
-      'A Flutter-based Flappy Bird game demonstration showcasing game development with the Flame engine.';
+      'A Scrappy Bird game clone built with Flutter and the Flame engine.';
 
   @override
   String get aboutPurpose =>
       'Created for learning and demonstration purposes of Flutter game development.';
 
   @override
-  String get aboutAuthor => 'Author: Evil0ctal';
+  String get aboutAuthor => 'Author: Brendan Greenlee';
 
   @override
-  String get aboutDate => 'Created: May 27, 2025';
+  String get aboutDate => 'Created: June 30, 2026';
 
   @override
   String get aboutOpenSource => 'View on GitHub';
@@ -115,10 +115,10 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get aboutGameDescription =>
-      'Experience the classic Flappy Bird gameplay reimagined with modern Flutter technology. Features smooth animations, particle effects, multiple difficulty levels, and global high score tracking.';
+      'A Flappy Bird-style game built with Flutter and Flame. Features smooth animations, particle effects, multiple difficulty levels, and high score tracking.';
 
   @override
-  String get developerName => 'Evil0ctal';
+  String get developerName => 'Brendan Greenlee';
 
   @override
   String get developerTitle => 'Flutter Game Developer';
